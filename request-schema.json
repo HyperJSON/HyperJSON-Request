@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "name": "HyperJSON Request Message",
+  "type": "object",
+  "properties": {
+    "method": {
+      "type": "string"
+    },
+    "uri": {
+      "type": "string"
+    },
+    "body": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "method",
+    "uri"
+  ]
+}
