@@ -51,4 +51,10 @@
     name: 'Obama'
   }
 }
+
+// with a query string
+{
+  method: 'GET',
+  uri: '/users?name=Bush'
+}
 ```
